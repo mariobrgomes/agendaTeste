@@ -20,7 +20,6 @@
 		<display:column property="email" sortable="true" title="Email" />
 		<display:column property="endereco" sortable="true" title="Endereço" />
 		<display:column property="dataNascimento.time" format="{0,date,dd/MM/yyyy}" sortable="true" title="Data de Nascimento" />
-		<display:column  title="Remover" href="mvc?logica=RemoveContatoLogic&id=${contato.id}" />
 		</display:table>
 	<c:import url="footer.jsp" />
 </body>
